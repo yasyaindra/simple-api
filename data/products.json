@@ -1,0 +1,24 @@
+[
+  {
+    "id": "1",
+    "title": "Airpods Wireless Bluetooth Headphones",
+    "description": "Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working",
+    "price": 89.99
+  },
+  {
+    "id": "2",
+    "title": "iPhone 11 Pro 256GB Memory",
+    "description": "Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life",
+    "price": 599.99
+  },
+  { "id": "3", "title": "Cannon EOS 80D DSLR Camera", "description": "Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design", "price": 929.99 },
+  { "id": "4", "title": "Sony Playstation 4 Pro White Version", "description": "The ultimate home entertainment center starts with PlayStation. Whether you are into gaming, HD movies, television, music", "price": 399.99 },
+  {
+    "id": "5",
+    "title": "Logitech G-Series Gaming Mouse",
+    "description": "Get a better handle on your games with this Logitech LIGHTSYNC gaming mouse. The six programmable buttons allow customization for a smooth playing experience",
+    "price": 49.99
+  },
+  { "id": "fa9a310b-fb60-4106-9a44-a4a3487ad6b7", "title": "XBox Series X 12213", "description": "Gaming console from microsoft", "price": 499 },
+  { "id": "a449e7fa-2be7-4952-b9cc-31dea5d3b660", "title": "DVD Player", "description": "Alat ini bisa memutar film terbaru", "price": 644 }
+]
