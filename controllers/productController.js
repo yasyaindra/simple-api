@@ -69,4 +69,18 @@ async function updateProduct(req, res, id) {
   }
 }
 
-module.exports = { getProduct, getProductById, createProduct, updateProduct };
+async function deleteProduct(req, res, id) {
+  try {
+    const product = await Product.findById(id);
+    if (!product) {
+      res.writeHead(404, { "Content-Type": "application/json" });
+      return res.end(JSON.stringify({ message: "Data Not Found" }));
+    } else {
+      await Product.remove(id);
+      res.writeHead(200, { "Content-Type": "application/json" });
+      return res.end(JSON.stringify({ message: `product ${id} has been deleted` }));
+    }
+  } catch (error) {}
+}
+
+module.exports = { getProduct, getProductById, createProduct, updateProduct, deleteProduct };
