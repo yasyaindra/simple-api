@@ -6,4 +6,11 @@ function find() {
   });
 }
 
-module.exports = { find };
+function findById(id) {
+  return new Promise((resolve, reject) => {
+    const product = products.find((p) => p.id == id);
+    resolve(product);
+  });
+}
+
+module.exports = { find, findById };

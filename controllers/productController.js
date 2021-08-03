@@ -10,4 +10,14 @@ async function getProduct(req, res) {
   }
 }
 
-module.exports = { getProduct };
+async function getProductById(req, res, id) {
+  try {
+    const product = await Product.findById(id);
+    res.writeHead(200, { "Content-Type": "application/json" });
+    res.end(JSON.stringify(product));
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+module.exports = { getProduct, getProductById };
